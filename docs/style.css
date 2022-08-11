@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #506C64;
+}
+
+.checker {
+    background-color: #CDD3D5;
+    min-width: 50%;
+    text-align: center;
+    padding: 3% 10% 7% 10%;
+}
+
+h1 {
+    margin-bottom: 15%;
+}
+
+textarea {
+    width: 50vw;
+    resize: none;
+}
+
+button {
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 8px;
+    border-color: #220C10;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    display: inline-block;
+    padding: 2px 5px;
+}
